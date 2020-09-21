@@ -9,8 +9,8 @@ def home():
 
 
 @app.route('/login')
-def login(name=None):
-    return render_template('index.html', name=name)
+def show_login():
+    return render_template('index.html')
 
 @app.route('/signup')
 def signup():
