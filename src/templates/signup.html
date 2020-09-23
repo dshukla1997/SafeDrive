@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}SafeDrive Signup Page{% endblock %}
+
+{% block content %}
+<div class="card login-card mt-4 border-primary">
+  <div class="card-body">
+    <h2 class = "text-center">SafeDrive</h2>
+    <h4 class = "text-center mt-4">Create a new account</h4>
+
+    {% if error != '' %}
+    <div class="alert alert-danger mt-4" role="alert">
+      {{error}}
+    </div>
+    {% endif %}
+
+    <form method="post" action="/handle_signup">
+      <div class="form-group mt-5">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" >
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group mt-5">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+      </div>
+      <div class="form-group mt-5">
+        <label for="password">Confirm password</label>
+        <input type="password" class="form-control" id="password" name="confpassword">
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </div>
+    </form>
+
+    <div class="mt-5 text-center">
+      Already have an account? <a href="/login">Login Now</a>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
