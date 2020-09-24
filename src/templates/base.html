@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>
-      {% block title %}
-      {% endblock %}
-    </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <style type='text/css'>
-    </style
-  </head>
-  <body>
-      <div class="container">
-        {% block content %}
+        {% block title %}
         {% endblock %}
-      </div>
-  </body>
+    </title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css"/>
+    <style type='text/css'>
+    </style>
+     <script src="/static/bootstrap/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    {% block content %}
+    {% endblock %}
+</div>
+
+</body>
 </html>

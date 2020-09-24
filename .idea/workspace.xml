@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a1c6d8a-231c-4d31-bb7c-6a8bef799dfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hwzSb9teSdEy0cnoI7sqRdDtbq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a1c6d8a-231c-4d31-bb7c-6a8bef799dfe" name="Default Changelist" comment="" />
+      <created>1600936943965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600936943965</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="98" key="SettingsEditor" timestamp="1600937305783">
+      <screen x="0" y="34" width="1920" height="969" />
+    </state>
+    <state x="570" y="98" key="SettingsEditor/0.34.1920.969@0.34.1920.969" timestamp="1600937305783" />
+    <state x="520" y="113" width="869" height="808" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600985933509">
+      <screen x="0" y="34" width="1920" height="969" />
+    </state>
+    <state x="520" y="113" width="869" height="808" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.34.1920.969@0.34.1920.969" timestamp="1600985933509" />
+    <state x="893" y="415" width="783" height="335" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1600937304745">
+      <screen x="0" y="34" width="1920" height="969" />
+    </state>
+    <state x="893" y="415" width="783" height="335" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.34.1920.969@0.34.1920.969" timestamp="1600937304745" />
+    <state x="573" y="33" width="840" height="1034" key="search.everywhere.popup" timestamp="1600937221921">
+      <screen x="0" y="34" width="1920" height="969" />
+    </state>
+    <state x="573" y="33" width="840" height="1034" key="search.everywhere.popup/0.34.1920.969@0.34.1920.969" timestamp="1600937221921" />
+  </component>
+</project>
